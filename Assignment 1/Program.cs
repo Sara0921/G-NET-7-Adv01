@@ -215,6 +215,30 @@ namespace Assignment_1
     //Pattern 2: Inherit with Concrete Type
     //Pattern 3: Add New Type Parameter
     #endregion
+    #region Question20
+    //public class Cache<TKey, TValue>
+    //{
+    //    private readonly Dictionary<TKey, (TValue value, DateTime expiry)> _cache = new();
+
+    //    public void Add(TKey key, TValue value, TimeSpan duration)
+    //        => _cache[key] = (value, DateTime.UtcNow.Add(duration));
+
+    //    public TValue Get(TKey key)
+    //    {
+    //        if (Contains(key)) return _cache[key].value;
+    //        return default;
+    //    }
+
+    //    public void Remove(TKey key) => _cache.Remove(key);
+
+    //    public bool Contains(TKey key)
+    //    {
+    //        if (!_cache.ContainsKey(key)) return false;
+    //        if (DateTime.UtcNow > _cache[key].expiry) { Remove(key); return false; }
+    //        return true;
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -257,7 +281,17 @@ namespace Assignment_1
             //Console.WriteLine(list.Get(0));  
             //Console.WriteLine(list.Get(99));
             #endregion
+            #region Question20
+            //var cache = new Cache<string, int>();
 
+            //cache.Add("score", 100, TimeSpan.FromSeconds(5));
+
+            //Console.WriteLine(cache.Contains("score")); 
+            //Console.WriteLine(cache.Get("score"));      
+
+            //cache.Remove("score");
+            //Console.WriteLine(cache.Contains("score")); 
+            #endregion
 
         }
     }
