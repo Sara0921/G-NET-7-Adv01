@@ -40,11 +40,33 @@
     #region Qustion05
     //public static class Utilities
     //{
-      
+
     //    public static T Max<T>(T a, T b) where T : IComparable<T>
     //    {
     //        return a.CompareTo(b) > 0 ? a : b;
     //    }
+    //}
+    #endregion
+    #region Question06
+    ////Generic interfaces define contracts with type parameters. Classes implementing them specify the actual types.
+    //public interface IRepository<T> where T :class
+    //{
+    //    T? GetById(int id);
+    //    IEnumerable<T> GetAll();
+    //    void Add(T entity);
+       
+
+    //}
+    //public class UserRepository :IRepository<User>
+    //{
+    //    private readonly List<User> _users = new();
+
+    //    public User? GetById(int id)
+    //        => _users.FirstOrDefault(u => u.Id == id);
+
+    //    public IEnumerable<User> GetAll() => _users;
+
+    //    public void Add(User entity) => _users.Add(entity);
     //}
     #endregion
     internal class Program
