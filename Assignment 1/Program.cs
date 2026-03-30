@@ -209,6 +209,12 @@ namespace Assignment_1
     #region Question18
     //Each closed generic type has its own copy of static fields. List<int> and List<string> have separate static data!
     #endregion
+    #region Question19
+    //Generic classes can inherit from other generic or non-generic classes. Several patterns are possible.
+    //Pattern 1: Inherit and Pass Type Parameter
+    //Pattern 2: Inherit with Concrete Type
+    //Pattern 3: Add New Type Parameter
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
