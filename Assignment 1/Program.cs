@@ -129,6 +129,22 @@ namespace Assignment_1
     //}
     //public class User { public string Name { get; set; } = ""; }
     #endregion
+    #region Question10
+    ////where T : IInterface requires T to implement a specific interface. This enables calling interface methods on type parameter.
+    //public class Sorter<T> where T : IComparable<T>
+    //{
+
+    //    public T FindMax(T[] array)
+    //    {
+    //        T max = array[0];
+    //        foreach (var item in array)
+    //        {
+    //            if (item.CompareTo(max) > 0) max = item;
+    //        }
+    //        return max;
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
