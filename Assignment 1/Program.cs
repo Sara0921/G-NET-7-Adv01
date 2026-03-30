@@ -170,6 +170,10 @@ namespace Assignment_1
     //    }
     //}
     #endregion
+    #region Question13
+    //default(T) or default returns the default value for type T: null for reference types, 0/false for value types.
+ 
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
