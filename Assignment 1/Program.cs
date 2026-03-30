@@ -201,10 +201,13 @@ namespace Assignment_1
     #region Question17
 
     //Aspect    | Covariance(out)       | Contravariance(in)
-//Direction     |Derived → Base         | Base → Derived
-//T Position    | Output only(return)   | Input only(parameter)
-//Example       |IEnumerable<out T>     | Action<in T>
-//Think of as	|Producer of <T>        | Consumer of <T>
+    //Direction     |Derived → Base         | Base → Derived
+    //T Position    | Output only(return)   | Input only(parameter)
+    //Example       |IEnumerable<out T>     | Action<in T>
+    //Think of as	|Producer of <T>        | Consumer of <T>
+    #endregion
+    #region Question18
+    //Each closed generic type has its own copy of static fields. List<int> and List<string> have separate static data!
     #endregion
     internal class Program
     {
