@@ -145,6 +145,17 @@ namespace Assignment_1
     //    }
     //}
     #endregion
+    #region Question11
+    ////where T : Animal means T must be Animal or a subclass of it — guarantees access to Animal's members inside the class.
+    //public class Animal { public string Name { get; set; } }
+    //public class Dog : Animal { }
+
+    //public class Cage<T> where T : Animal
+    //{
+    //    public T Occupant { get; set; }
+    //    public void Describe() => Console.WriteLine(Occupant.Name);
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
