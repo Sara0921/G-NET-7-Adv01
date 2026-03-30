@@ -20,8 +20,21 @@
     //        Value = value;
     //    }
     //    public override string ToString() => $"{Key} : {Value}";
-       
- 
+
+
+    //}
+    #endregion
+    #region Question04
+    ////A generic method declares its own type parameter(s). It can exist in both generic and non-generic classes. The compiler often infers the type argument.
+    //public static class Utilities
+    //{
+    //    public static void Swap<T>(ref T a, ref T b)
+    //    {
+    //        T temp = a;
+    //        a = b;
+    //        b = temp;
+    //    }
+
     //}
     #endregion
     internal class Program
@@ -41,6 +54,11 @@
             #region Question03
             //var Pair = new Pair<string, int>("Score", 99);
             //Console.WriteLine(Pair);
+            #endregion
+            #region Qustion04
+            //int x = 5, y = 10;
+            //Utilities.Swap(ref x, ref y); 
+            //Console.WriteLine($"x={x}, y={y}");
             #endregion
         }
     }
