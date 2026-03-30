@@ -1,4 +1,5 @@
 ﻿using Assignment_1;
+using System.Reflection.Metadata;
 using System.Security.Principal;
 
 namespace Assignment_1
@@ -196,6 +197,14 @@ namespace Assignment_1
     #region Question16
     //Contravariance allows you to use a less derived type than originally specified.
     //Marked with in keyword. T can only appear in input positions.
+    #endregion
+    #region Question17
+
+    //Aspect    | Covariance(out)       | Contravariance(in)
+//Direction     |Derived → Base         | Base → Derived
+//T Position    | Output only(return)   | Input only(parameter)
+//Example       |IEnumerable<out T>     | Action<in T>
+//Think of as	|Producer of <T>        | Consumer of <T>
     #endregion
     internal class Program
     {
