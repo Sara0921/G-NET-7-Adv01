@@ -37,6 +37,16 @@
 
     //}
     #endregion
+    #region Qustion05
+    //public static class Utilities
+    //{
+      
+    //    public static T Max<T>(T a, T b) where T : IComparable<T>
+    //    {
+    //        return a.CompareTo(b) > 0 ? a : b;
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -59,6 +69,11 @@
             //int x = 5, y = 10;
             //Utilities.Swap(ref x, ref y); 
             //Console.WriteLine($"x={x}, y={y}");
+            #endregion
+            #region Question05
+           // int x = 5, y = 10;
+           //Console.WriteLine($"The max number is : {Utilities.Max(x,y)}");
+
             #endregion
         }
     }
