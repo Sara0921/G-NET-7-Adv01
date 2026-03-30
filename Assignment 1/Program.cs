@@ -54,7 +54,7 @@
     //    T? GetById(int id);
     //    IEnumerable<T> GetAll();
     //    void Add(T entity);
-       
+
 
     //}
     //public class UserRepository :IRepository<User>
@@ -67,6 +67,24 @@
     //    public IEnumerable<User> GetAll() => _users;
 
     //    public void Add(User entity) => _users.Add(entity);
+    //}
+    #endregion
+    #region Question07
+    //// struct (Value Types) >> where T : struct restricts T to value types only.Useful when you need value semantics(copy, no null).
+    //public struct Nullable<T> where T : struct
+    //{
+    //    private readonly bool _hasValue;
+    //    private readonly T _value;
+
+    //    public bool HasValue => _hasValue;
+    //    public T Value => _hasValue ? _value
+    //        : throw new InvalidOperationException();
+
+    //    public Nullable(T value)
+    //    {
+    //        _hasValue = true;
+    //        _value = value;
+    //    }
     //}
     #endregion
     internal class Program
@@ -93,10 +111,11 @@
             //Console.WriteLine($"x={x}, y={y}");
             #endregion
             #region Question05
-           // int x = 5, y = 10;
-           //Console.WriteLine($"The max number is : {Utilities.Max(x,y)}");
+            // int x = 5, y = 10;
+            //Console.WriteLine($"The max number is : {Utilities.Max(x,y)}");
 
             #endregion
+
         }
     }
 }
