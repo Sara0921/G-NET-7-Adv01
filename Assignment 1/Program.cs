@@ -1,4 +1,6 @@
-﻿namespace Assignment_1
+﻿using Assignment_1;
+
+namespace Assignment_1
 {
     #region Question02
     //public class Container<T>
@@ -87,35 +89,58 @@
     //    }
     //}
     #endregion
+    #region Question08
+    //where T : class restricts T to reference types only. This allows T to be null and enables reference comparison.
+    //public class Cache<T> where T : class
+    //{
+    //    private T? _cachedItem;
+
+    //    public T? Get() => _cachedItem;
+
+    //    public void Set(T item)
+    //    {
+    //        _cachedItem = item;
+    //    }
+
+       
+    //    }
+
+       
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region Question01
-            //A generic class uses type parameters that are replaced with actual types when you create an instance. The type parameter T acts as a placeholder.
-            //Benefit >>	Description
-            //Type Safety >> Compile - time type checking
-            //Performance >> No boxing / unboxing for value types
-            //Code Reuse >>  One implementation for all types
-            //IntelliSense >>    Better IDE support and discovery
-            #endregion
+        #region Question01
+        //A generic class uses type parameters that are replaced with actual types when you create an instance. The type parameter T acts as a placeholder.
+        //Benefit >>	Description
+        //Type Safety >> Compile - time type checking
+        //Performance >> No boxing / unboxing for value types
+        //Code Reuse >>  One implementation for all types
+        //IntelliSense >>    Better IDE support and discovery
+        #endregion
 
-            //Usage
-            #region Question03
-            //var Pair = new Pair<string, int>("Score", 99);
-            //Console.WriteLine(Pair);
-            #endregion
-            #region Qustion04
-            //int x = 5, y = 10;
-            //Utilities.Swap(ref x, ref y); 
-            //Console.WriteLine($"x={x}, y={y}");
-            #endregion
-            #region Question05
-            // int x = 5, y = 10;
-            //Console.WriteLine($"The max number is : {Utilities.Max(x,y)}");
+        //Usage
+        #region Question03
+        //var Pair = new Pair<string, int>("Score", 99);
+        //Console.WriteLine(Pair);
+        #endregion
+        #region Qustion04
+        //int x = 5, y = 10;
+        //Utilities.Swap(ref x, ref y); 
+        //Console.WriteLine($"x={x}, y={y}");
+        #endregion
+        #region Question05
+        // int x = 5, y = 10;
+        //Console.WriteLine($"The max number is : {Utilities.Max(x,y)}");
 
-            #endregion
+        #endregion
+        #region Question08
+        //var cache = new Cache<string>();  
+        //cache.Set("Hello");
+        #endregion
 
-        }
     }
+}
 }
