@@ -189,6 +189,10 @@ namespace Assignment_1
     //    }
     //}
     #endregion
+    #region Question15
+    //Covariance allows you to use a more derived type than originally specified.
+    //Marked with out keyword. T can only appear in output positions.
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
