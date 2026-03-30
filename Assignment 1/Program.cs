@@ -1,4 +1,5 @@
 ﻿using Assignment_1;
+using System.Security.Principal;
 
 namespace Assignment_1
 {
@@ -154,6 +155,19 @@ namespace Assignment_1
     //{
     //    public T Occupant { get; set; }
     //    public void Describe() => Console.WriteLine(Occupant.Name);
+    //}
+    #endregion
+    #region Question12
+    ////You can combine multiple constraints for a single type parameter, and have different constraints for different type parameters.
+    //public class EntityManager<T>
+    //where T : class, IEntity, new()
+    //{
+    //    public T CreateAndSave()
+    //    {
+    //        var entity = new T();      
+    //        entity.Id = Guid.NewGuid();
+    //        return entity;
+    //    }
     //}
     #endregion
     internal class Program
