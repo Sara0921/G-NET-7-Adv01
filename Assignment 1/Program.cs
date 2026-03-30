@@ -172,7 +172,22 @@ namespace Assignment_1
     #endregion
     #region Question13
     //default(T) or default returns the default value for type T: null for reference types, 0/false for value types.
- 
+
+    #endregion
+    #region Question14
+    //public class SafeList<T>
+    //{
+    //    private readonly List<T> _items = new();
+
+    //    public void Add(T item) => _items.Add(item);
+
+    //    public T Get(int index)
+    //    {
+    //        if (index < 0 || index >= _items.Count)
+    //            return default;
+    //        return _items[index];
+    //    }
+    //}
     #endregion
     internal class Program
     {
@@ -210,6 +225,13 @@ namespace Assignment_1
             //var factory = new Factory<User>();
             //var users = factory.CreateMany(5);
             #endregion
+            #region Question14
+            //var list = new SafeList<int>();
+            //list.Add(10);
+            //Console.WriteLine(list.Get(0));  
+            //Console.WriteLine(list.Get(99));
+            #endregion
+
 
         }
     }
