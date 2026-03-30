@@ -1,5 +1,13 @@
 ﻿namespace Assignment_1
 {
+    #region Question02
+   //public class Container<T>
+   // {
+   //     private List<T> _items = new();
+   //     public void Add(T item) => _items.Add(item);
+   //     public T Get(int index) =>_items[index];
+   // }
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
